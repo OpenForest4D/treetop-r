@@ -6,7 +6,7 @@ R functions based on [weblidar-treetop](https://github.com/carlos-alberto-silva/
 
 The scripts have been refactored into standalone, modular functions, each dedicated to specific visualization and analytical tasks on lidar-derived Canopy Height Models (CHMs). This process decouples the original interactive Shiny server components, transforming them into reusable functions that independently generate outputs such as 3D visualizations, 2D plots, Lorenz curves, and spatial statistics (e.g., Ripley's K and L functions). The goal is to encapsulate the core analytical and visualization features of the original [server.R](https://github.com/carlos-alberto-silva/weblidar-treetop/blob/master/inst/app/server.r) code, which was better suited for interactive, real-time use, into standalone functions, removing the dependency on the Shiny framework. As a result, the scripts are now more streamlined, reusable, and better suited for automated or batch processing.
 
-### Treetop Functions** 
+### Treetop Functions
 
 **detect_trees.R**  
 R function detects individual trees in a Canopy Height Model (CHM) raster, extracts their locations and heights, converts coordinates to latitude/longitude (WGS84), and exports the tree data (lat, lon, height, UTM coordinates) as a JSON file.
@@ -32,7 +32,7 @@ The R function analyzes the spatial distribution of tree locations by calculatin
 **plot_ripley_kl.R**  
 The R function analyzes the spatial distribution of trees detected from a canopy height model (CHM) raster by extracting tree locations, computing Ripley's K and L functions with simulation envelopes to assess spatial clustering or dispersion, and then saving plots of these functions (including the transformed L(r) - r) to a PNG file.
 
-**toptree_install_libraries.R**  
+**treetop_install_libraries.R**  
 Required suite of packages for spatial data analysis and visualization.
 
 ### Acknowledgement
