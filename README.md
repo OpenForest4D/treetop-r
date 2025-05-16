@@ -17,6 +17,8 @@ R function detects trees from a Canopy Height Model (CHM) raster and generates s
 **plot_chm_2d.R**  
 R function detects and visualizes tree tops and crowns from a Canopy Height Model (CHM) raster, then generates a 2D plot (PNG image).
 
+![CHM 2D Plot](https://raw.githubusercontent.com/OpenForest4D/treetop-r/refs/heads/main/doc/images/chm_plot_2d.png)
+
 **plot_chm_3d_web.R**  
 R function generates an interactive 3D visualization of a Canopy Height Model (CHM) raster and saves it as an HTML file for web display.
 
@@ -25,6 +27,8 @@ R code defines two functions (1) GiniCoeff - calculates the Gini coefficient, a 
 
 **plot_lorenz_curve.R**  
 This R function processes a canopy height model (CHM) raster to detect individual trees, extract their heights, and analyze the distribution of tree heights. It calculates the Gini coefficient to quantify height inequality and generates a Lorenz curve to visualize this distribution. The function then saves a PNG plot illustrating the Lorenz curve, the mean height inflection point, and the Gini coefficient, providing a clear summary of tree height variability within the area.
+
+![Lorenz Curve](https://raw.githubusercontent.com/OpenForest4D/treetop-r/refs/heads/main/doc/images/lorenz_curve.png)
 
 **plot_ripley_kl_from_tree_locations.R**  
 The R function analyzes the spatial distribution of tree locations by calculating Ripley's K and L functions, which are used to detect clustering or dispersion in spatial point patterns. It creates and saves a PNG file with three plots: Ripley's K, Ripley's L, and a transformed L function ($L(r) - r$), each with simulation envelopes for comparison to spatial randomness. This helps users visually assess whether the trees are clustered, random, or evenly spaced.
