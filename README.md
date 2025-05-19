@@ -15,8 +15,7 @@ R function detects individual trees in a Canopy Height Model (CHM) raster, extra
 R function detects trees from a Canopy Height Model (CHM) raster and generates selected plots (CHM, Ripley's K/L, Lorenz Curve) to visualize tree locations, spatial patterns, and height distribution, saving the results as image files.
 
 **plot_chm_2d.R**  
-R function detects and visualizes tree tops and crowns from a Canopy Height Model (CHM) raster, then generates a 2D plot (PNG image).
-
+R function detects and visualizes tree tops and crowns from a Canopy Height Model (CHM) raster, then generates a 2D plot (PNG image).  
 ![CHM 2D Plot](https://raw.githubusercontent.com/OpenForest4D/treetop-r/refs/heads/main/doc/images/chm_plot_2d.png)
 
 **plot_chm_3d_web.R**  
@@ -26,8 +25,7 @@ R function generates an interactive 3D visualization of a Canopy Height Model (C
 R code defines two functions (1) GiniCoeff - calculates the Gini coefficient, a statistical measure of inequality within a numeric vector (tree heights), optionally handling missing values and correcting for finite sample size and (2) plot_lorenz_curve - visualizes the distribution of tree heights by plotting their Lorenz curve, which graphically represents inequality, and annotates the plot with the Gini coefficient and the proportion of total height contributed by trees taller than the mean. Plot also includes reference lines and a marker for the mean height, and saves the resulting image as a PNG file.
 
 **plot_lorenz_curve.R**  
-This R function processes a canopy height model (CHM) raster to detect individual trees, extract their heights, and analyze the distribution of tree heights. It calculates the Gini coefficient to quantify height inequality and generates a Lorenz curve to visualize this distribution. The function then saves a PNG plot illustrating the Lorenz curve, the mean height inflection point, and the Gini coefficient, providing a clear summary of tree height variability within the area.
-
+This R function processes a canopy height model (CHM) raster to detect individual trees, extract their heights, and analyze the distribution of tree heights. It calculates the Gini coefficient to quantify height inequality and generates a Lorenz curve to visualize this distribution. The function then saves a PNG plot illustrating the Lorenz curve, the mean height inflection point, and the Gini coefficient, providing a clear summary of tree height variability within the area.  
 ![Lorenz Curve](https://raw.githubusercontent.com/OpenForest4D/treetop-r/refs/heads/main/doc/images/lorenz_curve.png)
 
 **plot_ripley_kl_from_tree_locations.R**  
