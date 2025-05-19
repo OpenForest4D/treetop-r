@@ -44,5 +44,6 @@ Required suite of packages for spatial data analysis and visualization.
 Treetop: A Shiny-based Application for Extracting Forest Information from LiDAR data.  
 Authors: Carlos Alberto Silva, Andrew T. Hudak, Lee A. Vierling, Ruben Valbuena, Adrian Cardil, Midhun Mohan, Danilo Roberti Alves de Almeida, Eben N. Broadbent, Angelica M. Almeyda Zambrano, Ben Wilkinson, Ajay Sharma, Jason B. Drake, Paul B. Medley, Jason G. Vogel, Gabriel Atticciati Prata, Jeff Atkins, Caio Hamamura, Carine Klauberg.
 
-github.com/OpenForest4D/treetop-r  
-Author: Kai Lin
+Refactored code - github.com/OpenForest4D/treetop-r - by Kai Lin.
+
+OpenForest4D is funded by NSF awards 2409885, 2409886 & 2409887.
