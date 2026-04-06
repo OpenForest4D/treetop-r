@@ -1,5 +1,6 @@
 [![NSF-1948997](https://img.shields.io/badge/NSF-2409885-blue.svg)](https://nsf.gov/awardsearch/showAward?AWD_ID=2409885) [![NSF-2409886](https://img.shields.io/badge/NSF-2409886-blue.svg)](https://nsf.gov/awardsearch/showAward?AWD_ID=2409886) [![NSF-2409887](https://img.shields.io/badge/NSF-2409887-blue.svg)](https://nsf.gov/awardsearch/showAward?AWD_ID=2409887)
 
+[![GitHub downloads](https://img.shields.io/github/downloads/OpenForest4D/treetop-r/total)](https://github.com/OpenForest4D/treetop-r/releases)
 
 ## Overview
 R functions based on [weblidar-treetop](https://github.com/carlos-alberto-silva/weblidar-treetop/), a shiny-based application for extracting forest information from lidar data. The treetop application enables (1) detection of individual trees from lidar-derived canopy height models, (2) extraction of crown-level attributes, (3) assessment of forest uniformity and spatial distribution of trees, (4) Export of crown-level data products and (5) 2D and 3D visualization of CHM and crown-level outputs.
